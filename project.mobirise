@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-04-15_1754",
+    "name": "BAME Recruitment",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
@@ -24,9 +24,13 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.1",
-    "uniqCompNum": 12,
-    "versionPublish": "4.7.1",
-    "screenshot": "screenshot.png"
+    "uniqCompNum": 13,
+    "versionPublish": "4.7.2",
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
@@ -112,13 +116,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#f7da64!important"
             }
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/1af5f4-73d1a48ac1ad4402b21d1d5ea12c1126mv2-226x128.png",
+              "src": "@PROJECT_PATH@/assets/images/jag-logo-2-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -172,6 +176,46 @@
           }
         },
         {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000",
+              "text-align": "left"
+            },
+            ".mbr-section-lead": {
+              "color": "#9c9a9a",
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "Diversity is the future. It’s a true reflection of the society we serve. If we don’t mirror our consumers, <span style=\"font-weight: normal;\">it will be impossible to connect with them.</span>",
+          "text": "why is diversity good for business?",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-c"
+        },
+        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
@@ -183,7 +227,7 @@
             "paddingBottom": "1",
             "bgColor": "#fff"
           },
-          "title": "OUR PROMISE<br>",
+          "title": "<span style=\"font-weight: normal;\">OUR</span> PROMISE<br>",
           "meta": "Fingers Crossed",
           "_tags": [
             "Theme"
@@ -211,27 +255,16 @@
         },
         {
           "_params": {
-            "showText": false
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
           },
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-23-at-11.17.43-1400x165.png",
-              "width": 1400,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
-            }
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">UPLOAD CV</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">ADVERTISE JOB</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "image1",
-          "_anchor": "image1-b"
+          "_name": "buttons1",
+          "_anchor": "buttons1-a"
         },
         {
           "_styles": {
@@ -271,6 +304,30 @@
           "_anchor": "slider2-4"
         },
         {
+          "_params": {
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-23-at-11.17.43-1400x165.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-b"
+        },
+        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
@@ -292,19 +349,6 @@
           ],
           "_name": "header3",
           "_anchor": "header3-9"
-        },
-        {
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">UPLOAD CV</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">ADVERTISE JOB</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-a"
         },
         {
           "_params": {
