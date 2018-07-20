@@ -25,12 +25,13 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.1",
     "uniqCompNum": 13,
-    "versionPublish": "4.7.2",
+    "versionPublish": "4.7.6",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "",
-    "siteUrl": "undefined"
+    "siteUrl": "undefined",
+    "siteFonts": []
   },
   "pages": {
     "index.html": {
